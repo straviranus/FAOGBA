@@ -1,0 +1,27 @@
+#menu{
+    background-color: black;
+    width: 100%;
+    max-height: initial;
+    
+  
+}
+#barra{
+    display: flex;
+    justify-content: space-around;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 55px;
+}
+#menu ul li a:hover{
+    background-color: #1D8F56;
+    
+}

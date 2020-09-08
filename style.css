@@ -1,0 +1,154 @@
+#body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#principal{
+    background-color: #B11A1A;
+    margin: 0;
+    padding: 0;
+  
+}
+header{
+    background-color:#E3E7E8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cabecera{
+
+    position: relative;
+    width: 100%; height: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  
+}
+#logo1{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+
+    margin-left: 20px;
+}
+#logo2{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    
+  
+}
+#titulo{
+    
+    display: inline-block;
+    font-size: 70px;
+  
+}
+#subtitlo{
+    position: fixed;
+    
+}
+#central{
+   width: 1000px;
+   height: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+#pie{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  height: 10%;
+    list-style: none;
+    position: fixed;
+    background-color: burlywood;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+}
+
+
+
+#facebook{
+    height: 45px;
+    width: 45px;
+}
+#instagram{
+    height: 30px;
+    width: 30px;
+}
+#mail{
+    height: 30px;
+    width: 30px;
+ 
+}
+#twitter{
+    height: 40px;
+    width: 40px;
+
+}
+#youtube{
+    height: 30px;
+    width: 30px;
+
+}
+#telefono{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+
+
+
+
+.imagen{
+    width: 550px;
+    height: 320px;
+    position: fixed;
+    border-radius: 5%;
+}
+.flechas{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    display: inline-block;
+    opacity: 0.4;
+    display: none;
+}
+
+#flecha1{
+    margin-left: 480px;
+    margin-top: 140px;
+}
+#flecha2{
+    margin-top: 124px;
+    margin-left: -30px;
+}
+#slider-contenedor{
+   margin-top: 55px;
+    background-position-x: center;
+    background-color: hotpink;
+    border-radius: 10%;
+}
+#slider{
+    position: absolute;
+}
+
+.imagen-redes:hover
+    { 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5)
+    }
+    
+
